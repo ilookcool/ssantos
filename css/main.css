@@ -1,0 +1,51 @@
+html, body{
+	font-family: 'Indie Flower';
+}
+input, textarea {
+    width:250px;
+    height:35px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+input:hover, textarea:hover {
+    background:#fefefe;
+    border:1px solid #000000;
+    padding:10px;
+    margin-top:3px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+textarea{
+	min-height: 100px;
+}
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; }
+.centrar{ 
+	text-align:Center;
+}
+.portf{
+ width:100%;
+}
+.bg{
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	color: white;
+}
+.formmail{
+	color: black;
+	font-size: 15px;
+}
+.response{
+	font-size:30px;
+	color: white;
+}
